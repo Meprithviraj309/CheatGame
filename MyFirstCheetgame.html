@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Color Box Game</title>
+    <link rel="stylesheet" href="style.css"> <!-- Link to external CSS -->
+</head>
+<body>
+
+    <div id="game-over">Game Over!</div>
+    <div id="game-over-buttons">
+        <button onclick="resetGame()">Play Again</button>
+        <button onclick="closeGame()">Close Game</button>
+    </div>
+    <div class="container" id="box-container"></div>
+    <div class="controls">
+        <label>
+            <input type="checkbox" id="cheat-checkbox"> CHEAT 
+        </label>
+        <button onclick="resetGame()">Restart Game</button>
+    </div>
+
+    <script src="script.js"></script> <!-- Link to external JavaScript -->
+</body>
+<footer>
+    <p>&copy; 2024 MEprithviraj309. All rights reserved.</p>
+</footer>
+</html>
